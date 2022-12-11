@@ -1,12 +1,92 @@
 /* section id="title" in HTML */
+
 #title {
     background-color: #ff4c68;
+    color: white;
 }
 
 /* "meet new and interesting dogs nearby" */
+
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 900;
     line-height: 1.5;
+}
+
+/* centering the title section */
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* applying Montserrat as a global font*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #fff;
+}
+
+/* Download Buttons - custom class to not influence all btns by using the btn selector*/
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/* Features Section */
+
+#features {
+    padding: 8% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-icon {
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.features-heading {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.features-text {
+    color: #8f8f8f;
 }
