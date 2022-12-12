@@ -21,11 +21,6 @@ h2 {
     line-height: 1.5;
 }
 
-/* centering the title section */
-
-.container-fluid {
-    padding: 3% 15%;
-}
 
 /* applying Montserrat as a global font*/
 
@@ -55,23 +50,31 @@ body {
     color: #fff;
 }
 
-/* Download Buttons - custom class to not influence all btns by using the btn selector*/
+/* Title Section */
 
-.download-button {
-    margin: 5% 3% 5% 0;
+/* centering the title section */
+.container-fluid {
+    padding: 3% 15% 7%;
 }
 
-/* Title Image */
-
 .title-image {
-    width: 60%;
+    width: 22%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* Download Buttons - custom class to not influence all btns by using the btn selector*/
+.download-button {
+    margin: 5% 3% 5% 0;
 }
 
 /* Features Section */
 
 #features {
     padding: 8% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box {
@@ -103,7 +106,6 @@ body {
 #testimonials {
     background-color: #ef8172;
     color: #fff;
-    padding: 8% 15%;
     text-align: center;
 }
 
@@ -111,6 +113,10 @@ body {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
+}
+
+.carousel-item {
+    padding: 8% 15%;
 }
 
 /* Press Section */
@@ -125,3 +131,64 @@ body {
     width: 15%;
     margin: 20px 20px 50px;
 }
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Call to Action Section */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.copyright-text {
+    margin-top: 8px;
+    color: #8f8f8f;
+    font-size: small;
+}
+
+.footer-icon {
+    margin: 20px 10px;
+}
+
+/* Media Query For mobile */
+
+@media (max-width: 1115px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
